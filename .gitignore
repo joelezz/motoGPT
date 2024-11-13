@@ -38,3 +38,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+"node_modules/\n.env\ndist/\n.DS_Store" 
