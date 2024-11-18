@@ -27,9 +27,9 @@ const Home = () => {
         {noMessages ? (
             <>
             <p className="starter-text">
-                The Ultimate place for Formula One super fans!
-                Ask F1GPT anything about the fantastic topic of 
-                Formula One and it will give you the most relevant answers back.
+                The Ultimate place for MotoGP fans!
+                Ask MotoGPT anything about the fantastic topic of 
+                MotoGP and it will give you the most relevant answers back.
                 We hope you will enjoy!
             </p>
             <br/>
