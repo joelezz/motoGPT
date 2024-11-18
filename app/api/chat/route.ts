@@ -50,9 +50,9 @@ export async function POST(req: Request) {
 
     const template = {
         role: "system",
-        content: `You are an AI assistant who knows everything about Formula One.
+        content: `You are an AI assistant who knows everything about MotoGP.
         The context will provide you with the most recent page data from Wikipedia
-        the official F1 website and others.
+        the official MotoGP ebsite and others.
         If the context doesnt include the information you need to answer based on existing knoiwledge and dont mention
         the source  of your information or what the context does or does not include.
         Format responces using markdown where applicapble and dont return images
@@ -67,7 +67,7 @@ export async function POST(req: Request) {
     }
 
     const response = await openai.chat.completions.create({
-        model: "gpt-4",
+        model: "gpt-4o-small",
         stream: true,
         messages: [template, ...messages]
     })
