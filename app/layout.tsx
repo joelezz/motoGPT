@@ -1,7 +1,7 @@
 import "./global.css"
 
 export const metadata = {
-    title: "F1GPT",
+    title: "MotoGPT",
     description: "The place to go for all your Formula One questions"
 }
 
